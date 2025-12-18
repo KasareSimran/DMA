@@ -58,7 +58,7 @@ function App() {
             <Route path="/ProfileTracker" element={<ProfileTracker />} />
             <Route path="/RDGTeam" element={<RDGTeam />} />
             <Route path="/Report" element={<Report />} />
-            <Route path="/TATeam" element={<TATeam />} />
+            <Route path="/TATeam" element={<TATeam />} />          
 
             {/* Fallback for unknown routes */}
             <Route path="*" element={<h2>Page not found</h2>} />
