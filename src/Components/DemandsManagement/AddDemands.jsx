@@ -191,9 +191,13 @@ export default function AddDemands() {
                 Option: CheckboxOption
               }}
               value={form.primarySkill}
-              onChange={(selected) =>
+              onChange={(selected) =>{
+                if(selected && selected.length > 2){
+                  alert("you can select only 2 primary skills");
+                  return;
+                } 
                 setForm({ ...form, primarySkill: selected })
-              }
+              }}
               placeholder="Select Primary Skills"
               className="w-full"
               styles={{
