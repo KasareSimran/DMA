@@ -1,12 +1,13 @@
 
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import logo from "../../assets/progress.png"
 export default function ProfileTracker() {
   const navigate = useNavigate();
 
   return (
     <div>
-      <img src="HSBC_DMA_Frontend/src/assets/Progress.png"
+      <img src={logo}
         alt="WORK IN PROGRESS"
         className="w-64 h-64 object-cover rounded-lg shadow-lg"
       />

@@ -11,10 +11,11 @@ export default function DashBoard() {
 
 const navigate = useNavigate();
   return (
-<><NavBar />
+<>   
+  <NavBar />
         <div className="flex flex-col px-8 pt-6 bg-white">
 
-        <div className="bg-white mt-20">
+        <div className="bg-white mt-5">
       <div className="max-w-6xl mx-auto px-4 py-6">
         {/* Header */}
         <header className="flex items-center justify-between mb-5">
@@ -64,12 +65,13 @@ const navigate = useNavigate();
           Sample data for demo.WIll Replace datasets in the form of graphs/charts (Visual Representation) as needed.
         </div>
       </div>
+    </div>              
     </div>
-                    <footer className=" mt-15 text-center text-sm text-black">
-                      © Coforge, 2026 | Confidential
-                    </footer>
+    <div className='footer'>
+      <footer className=" mt-15 text-center text-sm text-black">
+         © Coforge, 2026 | Confidential
+      </footer>
     </div>
    </>
      );
    }
-   ``
