@@ -10,9 +10,6 @@ export default function RDGTeam() {
         alt="WORK IN PROGRESS"
         className="w-64 h-64 object-cover rounded-lg shadow-lg"
       />
-      </div>
-
+    </div>
   );
-
-
 };
